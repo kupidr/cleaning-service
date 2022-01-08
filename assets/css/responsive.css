@@ -91,46 +91,69 @@
   #services .residential {
     margin-top: 1rem !important;
   }
-  #services .residential .resi-left{
-      margin-bottom: 3rem !important;
+  #services .residential .resi-left {
+    margin-bottom: 3rem !important;
   }
-  #services .residential .m-resi-100{
-      width: 100% !important;
+  #services .residential .m-resi-100 {
+    width: 100% !important;
   }
 }
 @media screen and (max-width: 700px) {
-    .mobile-50{
-        width: 50% !important;
-    }
-    .mobile-100{
-        width: 100% !important;
-    }
-    /* start hearder area  */
-    header .nav-area {
-        text-align: center !important;
-    }
-    header .banner-area .banner-con {
-        padding: 3rem 0 !important;
-    }
-    /* start service area  */
-    #services .residential .resi-right .resi-right-box .resiRBcon {
-        z-index: 1;
-    }
-    /* start customers reivew */
-    #customers-reivew .cust-right{
-        margin-top: 4rem !important;
-    }
-    /* start footer area  */
-    footer .footer-top .google-mapes{
-        margin-top: 3rem !important;
-    }
-    footer .footer-top .google-mapes iframe {
-        width: 500px !important;
-        margin: auto !important;
-        display: block !important;
-    }
-    footer .footer-bottom .social-icon{
-        text-align: center !important;
-    }
+  .mobile-50 {
+    width: 50% !important;
+  }
+  .mobile-100 {
+    width: 100% !important;
+  }
+  /* start hearder area  */
+  header .nav-area {
+    text-align: center !important;
+  }
+  header .banner-area .banner-con {
+    padding: 3rem 0 !important;
+  }
+  header .banner-area .banner-ser-box {
+    margin: 3rem auto !important;
+  }
+  /* devider  */
+  #header-bottom-divider hr {
+    display: none !important;
+  }
+  /* start service area  */
+  #services .residential .resi-right .resi-right-box .resiRBcon {
+    z-index: 1;
+  }
+  /* start customers reivew */
+  #customers-reivew .cust-right {
+    margin-top: 4rem !important;
+  }
+  /* start footer area  */
+  footer .footer-top .google-mapes {
+    margin-top: 3rem !important;
+  }
+  footer .footer-top .google-mapes iframe {
+    width: 500px !important;
+    margin: auto !important;
+    display: block !important;
+  }
+  footer .footer-bottom .social-icon {
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer .footer-top .google-mapes iframe {
+    width: 400px !important;
+  }
 }
 
+@media screen and (max-width: 500px) {
+  footer .footer-top .google-mapes iframe {
+    width: 350px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  footer .footer-top .google-mapes iframe {
+    width: 300px !important;
+  }
+}
